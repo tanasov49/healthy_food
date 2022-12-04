@@ -1,0 +1,4 @@
+.logo__text {
+    @include logo__text;
+    align-self: self-end;
+}

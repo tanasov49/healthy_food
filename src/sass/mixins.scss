@@ -1,0 +1,39 @@
+@mixin font300 {
+    font-family: 'Work Sans';
+    font-weight: 300;
+}
+@mixin font400 {
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+@mixin font500 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+}
+@mixin font600 {
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+@mixin font700 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+}
+@mixin logo__text {
+    @include font500;
+    color: $colorGreen;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    line-height: 16px;
+}
+@mixin menu-link__item {
+    @include font700;
+    font-size: 14px;
+    line-height: 90px;
+    color: $colorWhite;
+    text-decoration: none;
+    transition: ease 0.5s;
+    &:hover {
+        color: $colorGreen;
+    }
+}

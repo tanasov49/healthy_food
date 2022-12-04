@@ -1,7 +1,10 @@
 import React from 'react'
+import Nav from './ui/Nav'
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <header className='header'>
+      <Nav />
+    </header>
   )
 }

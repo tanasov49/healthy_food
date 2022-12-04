@@ -1,2 +1,16 @@
+body {
+    background: $bcgPage;
+}
 @import '../vendor/normalize.scss';
 @import url(../fonts/fonts.scss);
+@import '../blocks/page/pages.scss';
+@import '../blocks/header/header.scss';
+@import '../blocks/nav/nav.scss';
+@import '../blocks/logo/logo.scss';
+@import '../blocks/logo/logo_header.scss';
+@import '../blocks/logo/__image/logo__image.scss';
+@import '../blocks/logo/__text/logo__text.scss';
+@import '../blocks/menu/menu.scss';
+@import '../blocks/menu/menu_header.scss';
+@import '../blocks/menu-link/menu-link.scss';
+@import '../blocks/menu-link/__item/menu-link__item.scss';

@@ -2,14 +2,13 @@ import React from 'react';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
-function App() {
+export default function App() {
   return (
     <div className="page">
       <Header />
-      <Main />
-      <Footer />
+      {/* <Main />
+      <Footer /> */}
     </div>
   );
 }
 
-export default App;
