@@ -33,3 +33,10 @@
     src: url(./worksans/WorkSans-Bold.woff2) format("woff2"), url(./worksans/WorkSans-Bold.woff) format("woff"), url(./worksans/WorkSans-Bold.eot) format("eot"), url(./worksans/WorkSans-Bold.ttf) format("ttf");
     font-display: swap;
 }
+@font-face {
+    font-family: "Raleway";
+    font-weight: 900;
+    font-style: normal;
+    src: url(./worksans/WorkSans-Black.woff2) format("woff2"), url(./worksans/WorkSans-Black.woff) format("woff"), url(./worksans/WorkSans-Black.eot) format("eot"), url(./worksans/WorkSans-Black.ttf) format("ttf");
+    font-display: swap;
+}
