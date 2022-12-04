@@ -88,3 +88,26 @@
     color: $colorWhite;
     opacity: 0.5;
 }
+@mixin section-title__title {
+    @include font900;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 0.2em;
+    color: $colorTitle;
+    margin: 0;
+    text-transform: uppercase;
+}
+@mixin section-title__subtitle {
+    @include font400;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0.2em;
+    color: $colorSubtitle;
+    margin: 0;
+}
+@mixin section-about__text {
+    @include font400;
+    font-size: 16px;
+    line-height: 30px;
+    color: $colorTextAbout;
+}

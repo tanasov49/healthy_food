@@ -1,0 +1,6 @@
+.section-title__subtitle {
+    position: absolute;
+    z-index: 2;
+    @include section-title__subtitle;
+    top: 45px;
+}

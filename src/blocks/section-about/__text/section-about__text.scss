@@ -1,0 +1,6 @@
+.section-about__text {
+    @include section-about__text;
+    margin: 0;
+    text-align: center;
+    max-width: 734px;
+}

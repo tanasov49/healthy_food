@@ -6,8 +6,8 @@ export default function App() {
   return (
     <div className="page">
       <Header />
-      {/* <Main />
-      <Footer /> */}
+      <Main />
+      {/* <Footer /> */}
     </div>
   );
 }
