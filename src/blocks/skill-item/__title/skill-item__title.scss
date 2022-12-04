@@ -1,0 +1,14 @@
+.skill-item__title {
+    @include skill-item__title;
+    margin: 0;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 56px;
+        background: $colorGreen;
+        bottom: -10px;
+        left: 0;
+    }
+}

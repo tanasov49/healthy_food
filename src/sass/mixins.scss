@@ -104,10 +104,26 @@
     letter-spacing: 0.2em;
     color: $colorSubtitle;
     margin: 0;
+    text-transform: capitalize;
 }
 @mixin section-about__text {
     @include font400;
     font-size: 16px;
     line-height: 30px;
+    color: $colorTextAbout;
+}
+@mixin skill-item__title {
+    @include font400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.275px;
+    text-transform: capitalize;
+    color: $colorWhite;
+}
+@mixin skill-item__text {
+    @include font400;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
     color: $colorTextAbout;
 }

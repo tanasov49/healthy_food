@@ -2,8 +2,8 @@ import React from 'react'
 import SectionTitle from '../ui/SectionTitle/SectionTitle'
 import SliderImages from '../ui/SliderImages/SliderImages'
 export default function SectionAbout() {
-  const classSectionAboutTitle = 'section-title_about'
-  const titleSectionAbout = {
+  const classSectionTitle = 'section-title_about'
+  const titleSection = {
     title: 'About', subtitle: 'The Basics Of Healthy Food'
   }
   const textSectionAbout = 'In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea aliquip aliquip consectetur voluptate est. Eu minim dolore laboris enim mollit voluptate irure esse aliquip.';
@@ -11,8 +11,8 @@ export default function SectionAbout() {
   return (
     <section className='section-about'>
         <SectionTitle 
-        classTitle={classSectionAboutTitle}
-        textSection={titleSectionAbout}
+        classTitle={classSectionTitle}
+        textSection={titleSection}
         />
         <p className='section-about__text'>{textSectionAbout}</p>
         <SliderImages 
