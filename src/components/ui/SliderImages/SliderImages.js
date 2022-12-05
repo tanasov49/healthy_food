@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ButtonHandle from '../ButtonHandle/ButtonHandle';
-import ButtonLeft from '../../../images/button-left.svg';
-import ButtonRight from '../../../images/button-right.svg';
+import ButtonLeft from '../../../images/button-left.svg?url';
+import ButtonRight from '../../../images/button-right.svg?url';
 import ImageFood1 from '../../../images/images_food/imagefood1.jpg';
 import ImageFood2 from '../../../images/images_food/imagefood2.jpg';
 import ImageFood3 from '../../../images/images_food/imagefood3.jpg';

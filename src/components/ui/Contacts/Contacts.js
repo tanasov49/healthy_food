@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import AddressSvg from '../../../images/address_svg.svg';
-import CallSvg from '../../../images/call_svg.svg';
-import TimeSvg from '../../../images/time_svg.svg';
+import AddressSvg from '../../../images/address_svg.svg?url';
+import CallSvg from '../../../images/call_svg.svg?url';
+import TimeSvg from '../../../images/time_svg.svg?url';
 export default function Contacts({classBlock}) {
   const [contactsInfo] = useState([
     {src: TimeSvg, link: '#', linkText: 'Today 10:00 am - 7:00 pm', span: 'Working hours'},

@@ -41,15 +41,39 @@
         color: $colorGreen;
     }
 }
-@mixin link-header {
+@mixin bcg-div {
+    background: $bcgPage;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+@mixin btn-order__header-info {
     @include font900;
     color: $colorWhite;
     letter-spacing: 0.2em;
     font-size: 18px;
-    line-height: 22px;
     transition: ease 0.5s;
-    text-decoration: none;
     background: $colorGrey;
+    width: 220px;
+    height: 72px;
+    border-radius: 43px;
+    &:hover {
+        color: $colorBlack;
+        background: $colorGreen;
+        border: none;
+    }
+}
+@mixin btn-order__ready-meal {
+    @include font900;
+    color: $colorWhite;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    transition: ease 0.5s;
+    background: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #303030;
+    text-transform: uppercase;
     &:hover {
         color: $colorBlack;
         background: $colorGreen;
@@ -112,6 +136,17 @@
     line-height: 30px;
     color: $colorTextAbout;
 }
+@mixin border-bottom__section-title {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 2px;
+        background: $colorGreen;
+        bottom: 0;
+    }
+}
 @mixin skill-item__title {
     @include font400;
     font-size: 22px;
@@ -126,4 +161,24 @@
     font-size: 13px;
     line-height: 18px;
     color: $colorTextAbout;
+}
+@mixin ready-meal__title {
+    @include font400;
+    font-size: 32px;
+    line-height: 30px;
+    color: $colorTextAbout;
+}
+@mixin ready-meal__subtitle {
+    @include font400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.15px;
+    color: $colorSubtitleMeal;
+}
+@mixin ready-meal__text {
+    @include font400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1625px;
+    color: #85878C;
 }

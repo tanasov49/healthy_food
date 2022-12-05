@@ -1,0 +1,6 @@
+.ready-meal {
+    display: grid;
+    max-width: 350px;
+    padding: 0 0 30px 0;
+    @include bcg-div;
+}

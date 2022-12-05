@@ -15,10 +15,10 @@ body {
 @import '../blocks/menu-link/menu-link.scss';
 @import '../blocks/menu-link/__item/menu-link__item.scss';
 @import '../blocks/header-info/header-info.scss';
-@import '../blocks/header-info/header-info__btn.scss';
+@import '../blocks/btn-order/btn-order_header-info.scss';
 @import '../blocks/header-info/__subtitle/header-info__subtitle.scss';
 @import '../blocks/header-info/__title/header-info__title.scss';
-@import '../blocks/link-header/link-header.scss';
+@import '../blocks/btn-order/btn-order.scss';
 @import '../blocks/contacts/contacts.scss';
 @import '../blocks/contacts/contacts_header.scss';
 @import '../blocks/contact-item/contact-item.scss';
@@ -44,5 +44,19 @@ body {
 @import '../blocks/skill-item/skill-item.scss';
 @import '../blocks/skill-item/__text/skill-item__text.scss';
 @import '../blocks/skill-item/__title/skill-item__title.scss';
+@import '../blocks/section-dishes/section-dishes.scss';
+@import '../blocks/section-title/section-title_dishes.scss';
+@import '../blocks/btn-order/btn-order_ready-meal.scss';
+@import '../blocks/ready-meals/ready-meals.scss';
+@import '../blocks/ready-meal/ready-meal.scss';
+@import '../blocks/ready-meal/__image/ready-meal__image.scss';
+@import '../blocks/ready-meal/__subtitle/ready-meal__subtitle.scss';
+@import '../blocks/ready-meal/__text/ready-meal__text.scss';
+@import '../blocks/ready-meal/__title/ready-meal__title.scss';
+@import '../blocks/ready-meal/__url/ready-meal__url.scss';
+@import '../blocks/rating/rating.scss';
+@import '../blocks/rating-label/rating-label.scss';
+@import '../blocks/rating-label/__input/rating-label__input.scss';
+@import '../blocks/rating-label/__svg/rating-label__svg.scss';
 
 

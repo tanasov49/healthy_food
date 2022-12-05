@@ -1,0 +1,6 @@
+.rating-label__svg {
+    z-index: 3;
+    &:hover {
+        fill: $colorOrange;
+    }
+}
