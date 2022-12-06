@@ -1,7 +1,7 @@
 .btn-order_ready-meal {
     @include btn-order__ready-meal;
     grid-row: 6; 
-    grid-column: 1 /2;
+    grid-column: 1 / 2;
     justify-self: end;
     align-self: center;
     margin: 28px 24px 0 0;

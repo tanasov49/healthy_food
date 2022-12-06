@@ -1,3 +1,23 @@
 .ready-meal__url {
-    
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: ease 0.5s;
+    right: 24px;
+    top: 24px;
+    img {
+        width: 21px;
+        height: 21px;
+    }
+    &:hover {
+        opacity: 0.7;
+    }
 }

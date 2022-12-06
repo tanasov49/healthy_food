@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import BtnOrder from '../BtnOrder/BtnOrder'
-import Rating from '../Rating/Rating'
+import React, { useState } from 'react';
+import BtnOrder from '../BtnOrder/BtnOrder';
+import Rating from '../Rating/Rating';
+import Share from '../../../images/share.svg?url';
 import ReadyMeal1 from '../../../images/ready-meals/ready_meal1.jpg';
 import ReadyMeal2 from '../../../images/ready-meals/ready_meal2.jpg';
 import ReadyMeal3 from '../../../images/ready-meals/ready_meal3.jpg';
@@ -23,7 +24,9 @@ export default function ReadyMeals({classBlock}) {
     <div className={`ready-meals ${classBlock}`}>
       {readyMeals.map((item, key) => 
             <div key={key} className='ready-meal'>
-              <a className='ready-meal__url' href={item.url} target='_blank'></a>
+              <a className='ready-meal__url' href={item.url} target="_blank">
+                <img src={Share} alt='share' />
+              </a>
               <img src={item.src} alt={item.title} className='ready-meal__image' />
               <h3 className='ready-meal__title'>{item.title}</h3>
               <h4 className='ready-meal__subtitle'>{item.subtitle}</h4>
