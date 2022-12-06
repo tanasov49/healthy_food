@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import Star from '../../../images/star.svg'
-export default function Rating() {
-    const [rating, setRating] = useState(null);
+export default function Rating({rate, count, classBlock}) {
+    const [rating, setRating] = useState(rate);
     const [hover, setHover] = useState(null);
   return (
-    <div className='rating'>
+    <div className={`rating ${classBlock}`}>
         {[...Array(5)].map((item, index) => {
             const ratingValue = index + 1;
             return (
@@ -13,15 +13,14 @@ export default function Rating() {
                         type="radio"
                         className="rating-label__input"
                         value={ratingValue}
-                        
+                        onClick={() => setRating(ratingValue)}
                     />
-                    <Star className='rating-label__svg' onMouseEnter={() => setHover(ratingValue)} onMouseLeave={() => setHover(null)}
-                    onClick={() => setRating(ratingValue)}
+                    <Star className={ratingValue <= (hover || rating) ? 'rating-label__svg rating-label__svg_active': 'rating-label__svg'} onMouseEnter={() => setHover(ratingValue)} onMouseLeave={() => setHover(null)}
                     />
-                    
                 </label>
             )
         })}
+        <p className='rating__count'>{count}</p>
     </div>
   )
 }

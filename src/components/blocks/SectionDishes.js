@@ -6,13 +6,16 @@ export default function SectionDishes() {
     const titleSection = {
         title: 'DISHES', subtitle: 'Dish Of The Day'
     }
+    const classReadyMeals = 'ready-meals_section-dishes';
   return (
     <section className='section-dishes'>
         <SectionTitle
         classTitle={classSectionTitle} 
         textSection={titleSection}
         />
-        <ReadyMeals />
+        <ReadyMeals 
+        classBlock={classReadyMeals}
+        />
     </section>
   )
 }

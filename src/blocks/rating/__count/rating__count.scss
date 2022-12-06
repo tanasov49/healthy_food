@@ -1,0 +1,4 @@
+.rating__count {
+    @include rating__count;
+    margin: 0 0 0 9px;
+}

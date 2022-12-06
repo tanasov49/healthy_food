@@ -1,6 +1,5 @@
 .rating-label__svg {
+    cursor: pointer;
     z-index: 3;
-    &:hover {
-        fill: $colorOrange;
-    }
+    transition: ease 0.5s;
 }

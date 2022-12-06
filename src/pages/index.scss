@@ -49,14 +49,18 @@ body {
 @import '../blocks/btn-order/btn-order_ready-meal.scss';
 @import '../blocks/ready-meals/ready-meals.scss';
 @import '../blocks/ready-meal/ready-meal.scss';
+@import '../blocks/ready-meals/ready-meals_section-dishes.scss';
 @import '../blocks/ready-meal/__image/ready-meal__image.scss';
 @import '../blocks/ready-meal/__subtitle/ready-meal__subtitle.scss';
 @import '../blocks/ready-meal/__text/ready-meal__text.scss';
 @import '../blocks/ready-meal/__title/ready-meal__title.scss';
 @import '../blocks/ready-meal/__url/ready-meal__url.scss';
 @import '../blocks/rating/rating.scss';
+@import '../blocks/rating/rating_ready-meal.scss';
+@import '../blocks/rating/__count/rating__count.scss';
 @import '../blocks/rating-label/rating-label.scss';
 @import '../blocks/rating-label/__input/rating-label__input.scss';
 @import '../blocks/rating-label/__svg/rating-label__svg.scss';
+@import '../blocks/rating-label/__svg/rating-label__svg_active.scss';
 
 

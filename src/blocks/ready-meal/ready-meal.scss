@@ -4,3 +4,6 @@
     padding: 0 0 30px 0;
     @include bcg-div;
 }
+.ready-meal:hover .rating-label__svg_active {
+    fill: $colorOrange;
+}
