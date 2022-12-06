@@ -1,0 +1,6 @@
+.chef-image__subtitle {
+    @include chef-image__subtitle;
+    grid-row: 1;
+    grid-column: 1;
+    margin: 35px 0 0 89px;
+}

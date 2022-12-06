@@ -1,0 +1,8 @@
+.chef-image {
+    display: grid;
+    grid-template-rows: 65px 65px;
+    max-width: 350px;
+    grid-gap: 24px 0;
+    grid-template-columns: 1fr;
+    position: relative;
+}

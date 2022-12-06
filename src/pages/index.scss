@@ -62,5 +62,11 @@ body {
 @import '../blocks/rating-label/__input/rating-label__input.scss';
 @import '../blocks/rating-label/__svg/rating-label__svg.scss';
 @import '../blocks/rating-label/__svg/rating-label__svg_active.scss';
-
-
+@import '../blocks/section-chefs/section-chefs.scss';
+@import '../blocks/section-title/section-title_chefs.scss';
+@import '../blocks/chefs-images/chefs-images.scss';
+@import '../blocks/chef-image/chef-image.scss';
+@import '../blocks/chef-image/__image/chef-image__image.scss';
+@import '../blocks/chef-image/__title/chef-image__title.scss';
+@import '../blocks/chef-image/__subtitle/chef-image__subtitle.scss';
+@import '../blocks/chef-dish/chef-dish.scss';

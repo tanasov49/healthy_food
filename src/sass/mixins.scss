@@ -189,3 +189,17 @@
     letter-spacing: 1.5px;
     color: #B3B3B3;
 }
+@mixin chef-image__title {
+    @include font400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: $colorWhite;
+}
+@mixin chef-image__subtitle {
+    @include font400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.15px;
+    color: $colorWhite;
+}
