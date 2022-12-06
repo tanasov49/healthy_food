@@ -11,14 +11,14 @@ import dish2ofChef3 from '../../../images/chefs-images/chefs_dishes3/dish2.jpg';
 import dish3ofChef3 from '../../../images/chefs-images/chefs_dishes3/dish3.jpg';
 import Chef2 from '../../../images/chefs-images/chef2.png';
 import Chef3 from '../../../images/chefs-images/chef3.png';
-export default function ChefsImages() {
+export default function ChefsImages({classChefs}) {
     const [chefsInfo] = useState([
         {src: Chef1, title: 'Gregory Flores', subtitle: 'Chef of the cold', dishes: [dish1ofChef1, dish2ofChef1, dish3ofChef1]},
         {src: Chef2, title: 'Annette Cooper', subtitle: 'Chef of the hot', dishes: [dish1ofChef2, dish2ofChef2, dish3ofChef2]},
         {src: Chef3, title: 'Greg Fox', subtitle: 'Сhef macro kitchen', dishes: [dish1ofChef3, dish2ofChef3, dish3ofChef3]}
     ])
   return (
-    <div className='chefs-images'>
+    <div className={`chefs-images ${classChefs}`}>
             {chefsInfo.map((item, key) =>
                 <div key={key} className='chef-image'> 
                     <img className='chef-image__image' src={item.src} alt={item.title} />
