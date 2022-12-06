@@ -2,6 +2,7 @@ import React from 'react'
 import SectionAbout from './blocks/SectionAbout'
 import SectionChefs from './blocks/SectionChefs'
 import SectionDishes from './blocks/SectionDishes'
+import SectionRecipes from './blocks/SectionRecipes'
 import SectionWork from './blocks/SectionWork'
 
 export default function Main() {
@@ -11,6 +12,7 @@ export default function Main() {
       <SectionWork />
       <SectionDishes />
       <SectionChefs />
+      <SectionRecipes />
     </main>
   )
 }
