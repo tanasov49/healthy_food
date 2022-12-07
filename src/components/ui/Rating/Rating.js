@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Star from '../../../images/star.svg'
+import Star from '../../../images/svg/star.svg'
 export default function Rating({rate, count, classBlock}) {
     const [rating, setRating] = useState(rate);
     const [hover, setHover] = useState(null);

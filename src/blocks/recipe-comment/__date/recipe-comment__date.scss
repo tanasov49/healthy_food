@@ -1,0 +1,8 @@
+.recipe-comment__date {
+    @include recipe-comment__date;
+    margin: 0;
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: right;
+    transition: ease 0.5s;
+}

@@ -1,0 +1,7 @@
+.recipe-comment__text {
+    grid-row: 1;
+    grid-column: 1 / 4;
+    @include recipe-comment__text;
+    margin: 0;
+    transition: ease 0.5s;
+}

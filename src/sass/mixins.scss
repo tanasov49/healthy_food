@@ -203,3 +203,23 @@
     letter-spacing: -0.15px;
     color: $colorWhite;
 }
+@mixin recipe-comment__title  {
+    @include font900;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: $colorWhite;
+}
+@mixin recipe-comment__text {
+    @include font400;
+    font-size: 16px;
+    line-height: 30px;
+    color: $colorWhite;
+}
+@mixin recipe-comment__date {
+    @include font400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #B3B3B3;
+}

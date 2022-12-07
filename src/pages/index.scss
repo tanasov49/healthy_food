@@ -72,3 +72,17 @@ body {
 @import '../blocks/chef-image/__subtitle/chef-image__subtitle.scss';
 @import '../blocks/chef-dish/chef-dish.scss';
 @import '../blocks/section-title/section-title_recipes.scss';
+@import '../blocks/recipe-active/recipe-active.scss';
+@import '../blocks/recipe-active/__title/recipe-active__title.scss';
+@import '../blocks/recipe-active/__author/recipe-active__author.scss';
+@import '../blocks/recipe-active/__link/recipe-active__link.scss';
+@import '../blocks/recipe-active/__text/recipe-active__text.scss';
+@import '../blocks/recipes-comments/recipes-comments.scss';
+@import '../blocks/recipe-comment/recipe-comment.scss';
+@import '../blocks/recipe-comment/__date/recipe-comment__date.scss';
+@import '../blocks/recipe-comment/__text/recipe-comment__text.scss';
+@import '../blocks/recipe-comment/__title/recipe-comment__title.scss';
+@import '../blocks/recipe-views/recipe-views.scss';
+@import '../blocks/recipe-views/__svg/recipe-views__svg.scss';
+@import '../blocks/recipe-comments/recipe-comments.scss';
+@import '../blocks/recipe-comments/__svg/recipe-comments__svg.scss';

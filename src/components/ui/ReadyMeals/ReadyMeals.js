@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BtnOrder from '../BtnOrder/BtnOrder';
 import Rating from '../Rating/Rating';
-import Share from '../../../images/share.svg?url';
+import Share from '../../../images/svg/share.svg?url';
 import ReadyMeal1 from '../../../images/ready-meals/ready_meal1.jpg';
 import ReadyMeal2 from '../../../images/ready-meals/ready_meal2.jpg';
 import ReadyMeal3 from '../../../images/ready-meals/ready_meal3.jpg';

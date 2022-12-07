@@ -1,0 +1,29 @@
+.recipe-comment {
+    max-width: 540px;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px 30px;
+    border-radius: 6px;
+    @include bcg-div;
+    gap: 10px 0;
+    transition: ease 0.5s;
+    cursor: pointer;
+    &:hover {
+        background: $colorGreen;
+    }
+    &:hover .recipe-comments__svg {
+        fill: $colorBlack;
+    }
+    &:hover .recipe-views__svg {
+        fill: $colorBlack;
+    }
+    &:hover .recipe-comment__date {
+        color: $colorBlack;
+    }
+    &:hover .recipe-comment__text {
+        color: $colorBlack;
+    }
+}

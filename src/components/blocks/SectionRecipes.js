@@ -1,4 +1,5 @@
 import React from 'react'
+import Recipes from '../ui/Recipes/Recipes';
 import SectionTitle from '../ui/SectionTitle/SectionTitle'
 
 export default function SectionRecipes() {
@@ -10,6 +11,7 @@ export default function SectionRecipes() {
             classTitle={classSectionTitle} 
             textSection={titleSection}
         />
+        <Recipes />
     </section>
   )
 }

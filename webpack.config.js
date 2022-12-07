@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
-        publicPath: ''
+    publicPath: '',
   },
     mode: 'development',
     devServer: {
@@ -16,7 +16,6 @@ module.exports = {
     port: 3030,
     open: true
   },
-
   module: {
     rules: [
       {
@@ -25,13 +24,26 @@ module.exports = {
         loader: "babel-loader",
       },
       {
-        test: /\.(png|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+        test: /\.(png|jpg|gif|jpeg)$/,
         type: 'asset/resource',
+        generator: {
+          filename: 'assets/images/img/[hash][ext][query]]'
+        } 
+      },
+      {
+        test: /\.(woff(2)?|eot|ttf|otf)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/fonts/[hash][ext][query]'
+        } 
       },
       {
         test: /\.svg$/i,
         type: 'asset',
-        resourceQuery: /url/, // *.svg?url
+        resourceQuery: /url/,
+        generator: {
+          filename: 'assets/images/svg/[hash][ext][query]'
+        } 
       },
       {
         test: /\.svg$/i,

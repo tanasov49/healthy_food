@@ -1,0 +1,10 @@
+.recipe-comment__title {
+    @include recipe-comment__title;
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0;
+    max-width: 90px;
+    max-height: 25px;
+    text-align: center;
+    background: $colorBlack;
+}

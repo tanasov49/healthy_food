@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import ButtonHandle from '../ButtonHandle/ButtonHandle';
-import ButtonLeft from '../../../images/button-left.svg?url';
-import ButtonRight from '../../../images/button-right.svg?url';
+import ButtonLeft from '../../../images/svg/button-left.svg?url';
+import ButtonRight from '../../../images/svg/button-right.svg?url';
 import ImageFood1 from '../../../images/images_food/imagefood1.jpg';
 import ImageFood2 from '../../../images/images_food/imagefood2.jpg';
 import ImageFood3 from '../../../images/images_food/imagefood3.jpg';
 import ImageFood4 from '../../../images/images_food/imagefood4.jpg';
 import ImageFood5 from '../../../images/images_food/imagefood5.jpg';
+
 export default function SliderImages({classBlock}) {
   const [imagesFood] = useState([
     {src: ImageFood1, alt: 'ImageFood1'},
