@@ -14,16 +14,16 @@
     &:hover {
         background: $colorGreen;
     }
-    &:hover .recipe-comments__svg {
-        fill: $colorBlack;
-    }
-    &:hover .recipe-views__svg {
+    &:hover .recipe-icons__svg {
         fill: $colorBlack;
     }
     &:hover .recipe-comment__date {
         color: $colorBlack;
     }
     &:hover .recipe-comment__text {
+        color: $colorBlack;
+    }
+    &:hover .recipe-icons__span {
         color: $colorBlack;
     }
 }

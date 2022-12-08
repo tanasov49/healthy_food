@@ -1,6 +1,7 @@
 import React from 'react'
-export default function RecipesComments({recipes, CommentSvg, ViewSvg, onCardClick}) {
-  
+import RecipesIcons from '../RecipesIcons/RecipesIcons'
+export default function RecipesComments({recipes, onCardClick}) {
+  const classRecipeComments = 'recipe-icons_recipes-comments'
   return (
     <div className='recipes-comments'>
       {recipes.map((item, key) => {
@@ -10,14 +11,10 @@ export default function RecipesComments({recipes, CommentSvg, ViewSvg, onCardCli
           <p className='recipe-comment__text'>{item.text}</p>
           <h3 className='recipe-comment__title'>{item.title}</h3>
           <p className='recipe-comment__date'>{item.date}</p>
-          <div className='recipe-views'>
-            <ViewSvg className='recipe-views__svg' />
-            <span className='recipe-views__view'>{item.views}</span>
-          </div>
-          <div className='recipe-comments'>
-            <CommentSvg className='recipe-comments__svg' />
-            <span className='recipe-views__view'>{item.comments}</span>
-          </div>
+          <RecipesIcons 
+            classBlock={classRecipeComments}
+            item={item}
+          />
         </div>
         )
       }

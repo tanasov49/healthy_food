@@ -1,3 +1,4 @@
 .recipe-active__date {
-    
+    @include recipe-active__date;
+    margin: 60px 0 0 0;
 }

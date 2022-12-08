@@ -1,0 +1,4 @@
+.recipe-icons__span {
+    @include recipe-icons__span;
+    transition: ease 0.5s;
+}

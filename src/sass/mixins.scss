@@ -210,6 +210,13 @@
     letter-spacing: 1.25px;
     text-transform: uppercase;
     color: $colorWhite;
+    border-radius: 4px;
+}
+@mixin recipe-icons__span {
+    @include font700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #D8D8D8;
 }
 @mixin recipe-comment__text {
     @include font400;
@@ -222,4 +229,20 @@
     font-size: 12px;
     line-height: 25px;
     color: #B3B3B3;
+}
+@mixin recipe-active__date {
+    @include font400;
+    font-size: 14px;
+    line-height: 30px;
+    color: $colorWhite;
+}
+@mixin recipe-active__text {
+    @include font400;
+    font-size: 24px;
+    line-height: 40px;
+    color: $colorWhite;
+    text-align: center;
+}
+@mixin recipe-active__author {
+    @include recipe-active__date;
 }

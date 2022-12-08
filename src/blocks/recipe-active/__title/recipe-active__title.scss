@@ -1,3 +1,6 @@
 .recipe-active__title {
-    
+    @include recipe-comment__title;
+    margin: 60px 0 0 0;
+    background: $colorBlack;
+    padding: 0 15px;
 }
