@@ -4,6 +4,7 @@ import SectionChefs from './blocks/SectionChefs'
 import SectionDishes from './blocks/SectionDishes'
 import SectionRecipes from './blocks/SectionRecipes'
 import SectionWork from './blocks/SectionWork'
+import SectionSocial from './blocks/SectionSocial'
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
       <SectionDishes />
       <SectionChefs />
       <SectionRecipes />
+      <SectionSocial />
     </main>
   )
 }

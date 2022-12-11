@@ -246,3 +246,26 @@
 @mixin recipe-active__author {
     @include recipe-active__date;
 }
+@mixin social-item__title {
+    @include font400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #BFBFBF;
+}
+@mixin btn-order_social-item {
+    @include font900;
+    color: $colorWhite;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    transition: ease 0.5s;
+    background: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #303030;
+    text-transform: uppercase;
+    &:hover {
+        color: $colorBlack;
+        background: $colorGreen;
+    }
+}

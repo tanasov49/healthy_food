@@ -24,6 +24,7 @@ export default function SectionWork() {
             textSkills={skillsTextWork}
             classSkills={classSkills}
         />
+
     </section>
   )
 }

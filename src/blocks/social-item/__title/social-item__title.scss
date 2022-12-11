@@ -1,0 +1,16 @@
+.social-item__title {
+    @include social-item__title;
+    margin: 0 0 0 85px;
+    grid-row: 1;
+    grid-column: 1 / 2;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 350px;
+        height: 2px;
+        background: #303030;
+        left: -85px;
+        bottom: -20px;
+    }
+}
