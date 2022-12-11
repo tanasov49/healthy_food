@@ -7,7 +7,7 @@ export default function App() {
     <div className="page">
       <Header />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
