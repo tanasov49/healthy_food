@@ -21,7 +21,7 @@ export default function Socials({classBlock}) {
             classBlock={classBtn}
             textBtn={textBtn}
           />
-          <iframe scrolling='no' src={item.url} frameborder='0' className='social-item__iframe'></iframe>
+          <iframe scrolling='no' src={item.url} frameBorder='0' className='social-item__iframe'></iframe>
         </li>
       )}
     </ul>
