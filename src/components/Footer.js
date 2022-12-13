@@ -1,6 +1,6 @@
 import React from 'react'
 import Contacts from './ui/Contacts/Contacts'
-import Logo from './ui/logo/Logo'
+import Logo from './ui/Logo/Logo'
 
 export default function Footer() {
   const classContacts = 'contacts_footer';

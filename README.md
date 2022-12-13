@@ -1,6 +1,7 @@
 
 # Проект Healthy-food
 Макет Figma (Спасибо автору Max) [ссылка на мекет](https://www.figma.com/file/DmIkAGpRNjIg7EqJRXQV4I/Healthy-food-%2B?node-id=2%3A2&t=24lMoADN3oovhyuU-0)
+В данном проекте я использовал локальный импорт изображений, но можно использовать импорт при помощи Rest Api.
 Данный проект создан при помощи React.
 Используются следующий стек технологий:
 -Webpack 5 версии;

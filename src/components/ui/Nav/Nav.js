@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef}from 'react'
-import Logo from '../logo/Logo'
-import Menu from '../menu/Menu'
+import Logo from '../Logo/Logo'
+import Menu from '../Menu/Menu'
 import MenuBtn from '../MenuBtn/MenuBtn'
 
 export default function Nav() {

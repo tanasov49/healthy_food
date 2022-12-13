@@ -1,10 +1,10 @@
 import React from 'react'
-import SectionAbout from './blocks/SectionAbout'
-import SectionChefs from './blocks/SectionChefs'
-import SectionDishes from './blocks/SectionDishes'
-import SectionRecipes from './blocks/SectionRecipes'
-import SectionWork from './blocks/SectionWork'
-import SectionSocial from './blocks/SectionSocial'
+import SectionAbout from './main/SectionAbout'
+import SectionChefs from './main/SectionChefs'
+import SectionDishes from './main/SectionDishes'
+import SectionRecipes from './main/SectionRecipes'
+import SectionWork from './main/SectionWork'
+import SectionSocial from './main/SectionSocial'
 
 export default function Main() {
   return (

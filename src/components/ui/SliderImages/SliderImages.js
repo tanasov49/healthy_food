@@ -26,7 +26,6 @@ export default function SliderImages({classBlock}) {
     } else if (window.innerWidth < 1024) {
       setWidth(250);
     }
-    
   })
   const handleLeftArrowClick = () => {
     setOffset((currentOffset) => {
@@ -51,12 +50,12 @@ export default function SliderImages({classBlock}) {
     }
   }, [slideIndex, imagesFood, offset])
 
-//  useEffect(() => {
-//   let slider = setInterval(() => handleRightArrowClick(prevState => prevState + 1), 3000);
-//   return () => {
-//     clearInterval(slider)
-//   }
-//  }, [])
+  useEffect(() => {
+    let slider = setInterval(() => handleRightArrowClick(prevState => prevState + 1), 1500);
+    return () => {
+      clearInterval(slider)
+    }
+  }, [handleRightArrowClick])
 
   return (
     <div className={`slider-images ${classBlock}`}>

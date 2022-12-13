@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import BtnOrder from '../BtnOrder/BtnOrder'
-import HeaderContacts from '../Contacts/Contacts'
+import Contacts from '../Contacts/Contacts'
 export default function HeaderInfo() {
   const headerInfoText = 
     {title: `Your favourite food
@@ -16,7 +16,7 @@ export default function HeaderInfo() {
       classBlock={classBtn}
       textBtn={textBtn}
       />
-      <HeaderContacts 
+      <Contacts
       classBlock={classContacts}
       />
     </div>

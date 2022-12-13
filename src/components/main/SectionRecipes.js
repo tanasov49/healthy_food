@@ -1,6 +1,6 @@
 import React from 'react'
 import Recipes from '../ui/Recipes/Recipes';
-import SectionTitle from '../ui/SectionTitle/SectionTitle'
+import TitleSection from '../ui/TitleSection/TitleSection'
 
 export default function SectionRecipes() {
     const classSectionTitle = 'section-title_recipes';
@@ -8,7 +8,7 @@ export default function SectionRecipes() {
     const classRecipes = 'recipes_section-recipes'
   return (
     <section className='section-recipes'>
-        <SectionTitle 
+        <TitleSection 
             classTitle={classSectionTitle} 
             textSection={titleSection}
         />

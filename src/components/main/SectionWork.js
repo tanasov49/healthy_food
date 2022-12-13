@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SectionTitle from '../ui/SectionTitle/SectionTitle'
+import TitleSection from '../ui/TitleSection/TitleSection'
 import Skills from '../ui/Skills/Skills'
 
 export default function SectionWork() {
@@ -16,7 +16,7 @@ export default function SectionWork() {
     ])
   return (
     <section className='section-work'>
-        <SectionTitle 
+        <TitleSection 
             textSection={titleSectionWork}
             classTitle={classSectionTitle}
         />

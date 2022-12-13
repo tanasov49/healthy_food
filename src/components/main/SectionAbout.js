@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTitle from '../ui/SectionTitle/SectionTitle'
+import TitleSection from '../ui/TitleSection/TitleSection'
 import SliderImages from '../ui/SliderImages/SliderImages'
 export default function SectionAbout() {
   const classSectionTitle = 'section-title_about'
@@ -10,7 +10,7 @@ export default function SectionAbout() {
   const classSliderAbout = 'slider-images_about'
   return (
     <section className='section-about'>
-        <SectionTitle 
+        <TitleSection 
         classTitle={classSectionTitle}
         textSection={titleSection}
         />

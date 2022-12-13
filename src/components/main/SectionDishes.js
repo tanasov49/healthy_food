@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionTitle from '../ui/SectionTitle/SectionTitle'
+import TitleSection from '../ui/TitleSection/TitleSection'
 import ReadyMeals from '../ui/ReadyMeals/ReadyMeals'
 export default function SectionDishes() {
     const classSectionTitle = 'section-title_dishes'
@@ -9,7 +9,7 @@ export default function SectionDishes() {
     const classReadyMeals = 'ready-meals_section-dishes';
   return (
     <section className='section-dishes'>
-        <SectionTitle
+        <TitleSection
         classTitle={classSectionTitle} 
         textSection={titleSection}
         />
