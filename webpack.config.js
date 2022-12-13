@@ -56,7 +56,7 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader, {
             loader: 'css-loader',
-            options: { importLoaders: 1 }
+            options: { importLoaders: 2 }
           },
           'postcss-loader',
           'sass-loader',
@@ -79,7 +79,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      
+      filename: "main.css",
     }),
   ],
 };
