@@ -1,3 +1,13 @@
 .menu_header {
     margin: 0 176px 0 0;
+    @media screen and (max-width: 1024px) and (min-width: 320px) {
+        visibility: hidden;
+        flex-direction: column;
+        margin: 0 20px 0 0;
+        position: absolute;
+        transition: ease 0.5s;
+        gap: 10px;
+        top: -150px;
+        right: 0;
+    }
 }

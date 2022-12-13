@@ -18,7 +18,16 @@ export default function SliderImages({classBlock}) {
   ])
   const [slideIndex, setSlideIndex] = useState(0);
   const [offset, setOffset] = useState(0);
-  const [width, setWidth] = useState(100);
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    if (window.innerWidth >= 1024) {
+      setWidth(384);
+    } else if (window.innerWidth < 1024) {
+      setWidth(250);
+    }
+    
+  })
   const handleLeftArrowClick = () => {
     setOffset((currentOffset) => {
       const newOffset = currentOffset + width
@@ -48,18 +57,16 @@ export default function SliderImages({classBlock}) {
 //     clearInterval(slider)
 //   }
 //  }, [])
+
   return (
     <div className={`slider-images ${classBlock}`}>
       <ButtonHandle
       image={ButtonLeft}
       onClick={handleLeftArrowClick}
       />
-      <div className='images-food' style={{
-            width: `${width}%`,
-            height: "100%",
-          }}>
+      <div className='images-food' >
         {imagesFood.map((item, key) =>
-        <img className='images-food__image' style={{maxWidth: `${width}%`, transform: `translateX(${offset}%)`}} key={key} src={item.src} alt={item.alt} />
+        <img className={`images-food__image`} style={{ transform: `translateX(${offset}px)`}} key={key} src={item.src} alt={item.alt} />
         )}
       </div>
       <ButtonHandle

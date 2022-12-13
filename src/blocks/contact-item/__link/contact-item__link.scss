@@ -1,4 +1,8 @@
 .contact-item__link {
     @include contact-item__link;
     margin: 13px 0 0 0;
+    @media screen and (max-width: 1024px) and (min-width: 320px) {
+        line-height: 20px;
+        font-size: 12px;
+    }
 }

@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top: -226px;
+    margin: -226px 0 0 0;
+    @media screen and (max-width: 1024px) and (min-width: 320px) {
+        margin: 0;
+    }
 }

@@ -1,0 +1,8 @@
+.menu_header-active {
+    @media screen and (max-width: 1024px) {
+        visibility: visible;
+        z-index: 3;
+        max-height: 100%;
+        top: 72px;
+    }
+}

@@ -12,6 +12,7 @@ body {
 @import '../blocks/logo/__text/logo__text.scss';
 @import '../blocks/menu/menu.scss';
 @import '../blocks/menu/menu_header.scss';
+@import '../blocks/menu/menu_header-active.scss';
 @import '../blocks/menu-link/menu-link.scss';
 @import '../blocks/menu-link/__item/menu-link__item.scss';
 @import '../blocks/header-info/header-info.scss';
@@ -104,3 +105,9 @@ body {
 @import '../blocks/logo/logo_footer.scss';
 @import '../blocks/contacts/contacts_footer.scss';
 @import '../blocks/footer/__text/footer__text.scss';
+// Menu btn for display < 1024px
+@import '../blocks/menu-btn/menu-btn.scss';
+@import '../blocks/menu-btn/__icon/menu-btn__icon.scss';
+@import '../blocks/menu-btn/__icon/menu-btn__icon_click.scss';
+@import '../blocks/menu-btn/__text/menu-btn__text.scss';
+@import '../blocks/menu-btn/__text/menu-btn__text_click.scss';

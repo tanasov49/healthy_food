@@ -1,0 +1,7 @@
+.menu-btn__text {
+    @include menu-btn__text;
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    transition: 0.55s;
+}

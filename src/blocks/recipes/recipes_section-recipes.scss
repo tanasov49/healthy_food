@@ -1,3 +1,10 @@
 .recipes_section-recipes {
     margin: 60px 0 0 0;
+    @media screen and (max-width: 1024px) and (min-width: 320px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }

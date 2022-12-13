@@ -61,6 +61,7 @@
         background: $colorGreen;
         border: none;
     }
+
 }
 @mixin btn-order__ready-meal {
     @include font900;
@@ -102,6 +103,7 @@
     color: $colorWhite;
     text-decoration: none;
     transition: ease 0.5s;
+    text-align: center;
     &:hover {
         color: $colorGreen;
     }
@@ -120,6 +122,10 @@
     color: $colorTitle;
     margin: 0;
     text-transform: uppercase;
+    @media screen and (max-width: 1024px) and (min-width: 320px) {
+        font-size: 60px;
+        line-height: 40px;
+    }
 }
 @mixin section-title__subtitle {
     @include font400;
@@ -129,12 +135,19 @@
     color: $colorSubtitle;
     margin: 0;
     text-transform: capitalize;
+    @media screen and (max-width: 1024px) and (min-width: 320px) {
+        font-size: 18px;
+        line-height: 20px;
+        position: absolute;
+        top: 10px;
+    }
 }
 @mixin section-about__text {
     @include font400;
     font-size: 16px;
     line-height: 30px;
     color: $colorTextAbout;
+    
 }
 @mixin border-bottom__section-title {
     position: relative;
@@ -274,4 +287,10 @@
     font-size: 12px;
     line-height: 18px;
     color: #737373;
+}
+@mixin menu-btn__text {
+    @include font500;
+    font-size: 14px;
+    color: $colorWhite;
+    text-transform: uppercase;
 }

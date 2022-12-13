@@ -26,4 +26,7 @@
     &:hover .recipe-icons__span {
         color: $colorBlack;
     }
+    @media screen and (max-width: 768px) and (min-width: 320px) {
+        height: 140px;
+    }
 }

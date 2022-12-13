@@ -3,4 +3,9 @@
     max-width: 595px;
     text-align: center;
     margin: 16px 0 0 0;
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 70%;
+    }
 }

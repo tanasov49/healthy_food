@@ -1,0 +1,16 @@
+.menu-btn__icon_click {
+    backface-visibility: hidden;
+    top: 24px;
+    transform: rotate(50deg);
+    transition: 0.55s 0.5s;
+    opacity: 1;
+    &::before {
+        opacity: 0;
+    }
+    &::after {
+        backface-visibility: hidden;
+        top: 0px;
+        transform: rotate(-280deg);
+        transition: 0.55s 0.5s;
+    }
+}

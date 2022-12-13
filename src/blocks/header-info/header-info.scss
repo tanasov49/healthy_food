@@ -2,6 +2,9 @@
     margin: 80px 0 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    max-height: 100%;
+    @media screen and (max-width: 1024px) and (min-width: 320px) {
+        margin: 20px 0 0 0;
+    }
 }

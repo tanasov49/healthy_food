@@ -1,4 +1,9 @@
 .btn-order_header-info {
     margin: 40px 0 0 0;
     @include btn-order__header-info;
+    @media screen and (max-width: 768px) {
+        width: 120px;
+        max-height: 36px;
+        font-size: 12px;
+    }
 }
