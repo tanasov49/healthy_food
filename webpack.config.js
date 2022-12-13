@@ -54,8 +54,10 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
-          'css-loader',
+          MiniCssExtractPlugin.loader, {
+            loader: 'css-loader',
+            options: { importLoaders: 1 }
+          },
           'postcss-loader',
           'sass-loader',
           {
@@ -76,6 +78,8 @@ module.exports = {
       template: "./public/index.html",
     }),
     new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      
+    }),
   ],
 };
