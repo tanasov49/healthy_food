@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import BtnOrder from '../ui/BtnOrder/BtnOrder'
-import HeaderContacts from '../ui/Contacts/Contacts'
+import BtnOrder from '../BtnOrder/BtnOrder'
+import HeaderContacts from '../Contacts/Contacts'
 export default function HeaderInfo() {
   const headerInfoText = 
     {title: `Your favourite food

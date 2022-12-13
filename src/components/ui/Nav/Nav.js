@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef}from 'react'
-import Logo from '../ui/logo/Logo'
-import Menu from '../ui/menu/Menu'
-import MenuBtn from '../ui/MenuBtn/MenuBtn'
+import Logo from '../logo/Logo'
+import Menu from '../menu/Menu'
+import MenuBtn from '../MenuBtn/MenuBtn'
 
 export default function Nav() {
     const [menuLinks] = useState([
